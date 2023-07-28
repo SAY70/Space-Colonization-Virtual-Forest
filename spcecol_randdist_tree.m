@@ -1,7 +1,7 @@
 clearvars; close all; clc;
 
 num_trees = 100;  % number of trees to generate
-b_m      = 2;  % branch magnitude (for reach node segment)
+b_m      = 0.7;  % branch magnitude (for reach node segment)
 min_d    =  1;   % minimum distance to branch
 max_d    =  2;   % maximum distance to branch
 max_its  = 20;
