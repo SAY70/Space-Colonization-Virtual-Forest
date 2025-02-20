@@ -30,9 +30,9 @@ This script can be utilized in **remote sensing, forest ecology, and radiative t
 | `num_cells_x`, `num_cells_y` | Defines spatial grid for tree distribution |
 | `receiver_positions_manual` | Predefined receiver positions in the 3D space |
 
-## 👨‍👩‍👦 Contributors
-- **[Your Name]** - Research & Development
-- **[Collaborators]** - Algorithm Optimization & Testing
+## 👨‍👩‍👦 Contributing
+- Research & Development
+- Algorithm Optimization & Testing
 
 ## 🔧 Future Enhancements
 - **Integration with LiDAR data** for real-world calibration
