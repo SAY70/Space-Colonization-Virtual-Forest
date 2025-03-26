@@ -37,7 +37,7 @@ This script can be utilized in **remote sensing, forest ecology, and radiative t
 ## 🔧 Future Enhancements
 - **Integration with LiDAR data** for real-world calibration
 - **Deep learning models** for tree classification
-- **Radiative transfer analysis** for canopy interaction studies
+- **Radiative transfer analysis** for canopy interaction scattering studies
 
 ---
 🎨 *"Nature is an engineer of complexity. Let's simulate it."* 🌳
