@@ -20,6 +20,24 @@ This script can be utilized in **remote sensing, forest ecology, and radiative t
 4. **Visualize Forest**: Plot trees in 3D with color-coded branches and receiver positions.
 5. **Receiver Perspective Simulation**: Identify which tree components fall within the receiver’s cylindrical viewing range.
 
+## ▶️ Getting Started
+
+### Files
+| File | Purpose |
+|------|---------|
+| `spcecol_randdist_tree.m` | Main script: sets the parameters, grows the forest, classifies the branches, plots the 3D scene and runs the receiver analysis |
+| `SC_tree_obj.m` | `SC_tree_obj` class used by the script to grow each tree (space colonization) and compute its branch geometry and properties |
+
+### Run
+1. Clone or download this repository and keep both `.m` files in the same folder (or add the folder to the MATLAB path).
+2. In MATLAB, change to that folder and run:
+   ```matlab
+   spcecol_randdist_tree
+   ```
+3. To change the forest, edit the parameters at the top of `spcecol_randdist_tree.m` (see the table below).
+
+> **Note:** the script starts with `clearvars; close all; clc`, so it clears your workspace and closes open figures. It also fixes the random seed with `rng(123774)`, so repeated runs give the same forest until you change the seed.
+
 ## 🌟 Notable Parameters
 | Parameter | Description |
 |-----------|-------------|
